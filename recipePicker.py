@@ -1,6 +1,6 @@
 # Import the necessary libraries
 
-# For GUI cretion
+# For GUI creation
 
 import customtkinter
 from PIL import Image
@@ -27,6 +27,7 @@ import pyglet
     2. Obtain the path of the executable file if theres one
     3. Capture any error that could happen
     4. Obtain the new file path of the executable"""
+
 
 def resource_path(relative_path):
     try:
@@ -56,7 +57,7 @@ def clear_widgets(frame):
 """ Connect to the SQLite database and obtain:
         1. Obtain the title of the recipes
         2. Obtain the name, quantity and unit of the recipe depending of the randomly obtain recipe title
-        3. Close the connection and retunr the recipe name and the recipe ingredients"""
+        3. Close the connection and return the recipe name and the recipe ingredients"""
 
 def fetch_db():
     connection = sqlite3.connect(resource_path("data\\recipes.db"))
@@ -74,7 +75,7 @@ def fetch_db():
     return recipe_name, table_records
 
 
-# Define a new function where all the information will be pre processed
+# Define a new function where all the information will be pre-processed
 
 def pre_process(recipe_name, table_records):
     title = recipe_name[0]
@@ -91,7 +92,7 @@ def pre_process(recipe_name, table_records):
         qty = i[1]
         unit = i[2]
 
-        # Append the ingredients depending on the information that is avialable
+        # Append the ingredients depending on the information that is available
 
         if qty == None:
             ingredients.append(name)
@@ -208,7 +209,7 @@ def load_frame2():
 # Set the appearance theme of the GUI
 
 customtkinter.set_appearance_mode("system")
-customtkinter.set_default_color_theme(resource_path("newTheme.json"))
+customtkinter.set_default_color_theme("purpleTheme.json")
 
 # Set the title and size of thw window
 
@@ -224,7 +225,7 @@ frame2 = customtkinter.CTkFrame(root)
 for frame in (frame1, frame2):
     frame.grid(row=0, column=0, sticky="nesw")
     
-# Start the program by loading frame1, the app wont close until the user closes it
+# Start the program by loading frame1, the app won't close until the user closes it
 
 load_frame1()
 
