@@ -1,6 +1,6 @@
 # RECIPE CREATOR - Random recipes with just one click
 
-**INDEX**
+# **INDEX**
 
 - [Project Description](#project-description)
   - [Download and Installation](#download-and-installation)
