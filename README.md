@@ -21,15 +21,15 @@ Recipe Picker is an app created on Python and based on a tutorial from YouTube, 
 
 To download and install the Recipe Picker app follow these instructions:
 
-- Go to: ***https://drive.google.com/drive/folders/10LhDq1kLvHvXgKVPc6B7k7k2y-bxNLVG?usp=sharing***
-- Download the zip file inside the folder
-- After downloading decompress the zip file
+- Go to: ***https://drive.google.com/drive/folders/10LhDq1kLvHvXgKVPc6B7k7k2y-bxNLVG?usp=sharing***.
+- Download the zip file inside the folder.
+- After downloading decompress the zip file.
 - You'll find a folder called `RecipePicker` and inside of it three files, two of them folders:
 
     ![Folders](.README_images/image2.png)
 
-- To insatall Recipe Picker go to dist/recipePicker/recipePicker.exe
-- Follow the instructions on the wizard and recipePicker should be ready for you to use
+- To insatall Recipe Picker go to dist/recipePicker/recipePicker.exe.
+- Follow the instructions on the wizard and recipePicker should be ready for you to use.
 
 ### Technologies Used
 
@@ -78,8 +78,8 @@ This project is created under the MIT License. Consult the LICENSE file for more
 
 ## Gratitudes
 
-I want to show my gratitude to Python Simplified fo the sereies of videos made of the topic, videos that helped me to be able to recreate the same app, but adding some new tweaks that made the project a little bit better, I leave all the information related to Python Simplified
+I want to show my gratitude to Python Simplified fo the sereies of videos made of the topic, videos that helped me to be able to recreate the same app, but adding some new tweaks that made the project a little bit better, I leave all the information related to Python Simplified.
 
-- Python Simplified YouTube Channel: ***https://www.youtube.com/@PythonSimplified***
-- Python Simplified GitHub Profile: ***https://github.com/MariyaSha***
-- Python Simplified Discord Server: ***https://discord.com/invite/wgTTmsWmXA***
+- Python Simplified YouTube Channel: ***https://www.youtube.com/@PythonSimplified***.
+- Python Simplified GitHub Profile: ***https://github.com/MariyaSha***.
+- Python Simplified Discord Server: ***https://discord.com/invite/wgTTmsWmXA***.
